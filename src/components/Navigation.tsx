@@ -47,7 +47,7 @@ export const Navigation = () => {
               <p className={`text-xs transition-colors ${
                 isScrolled ? 'text-muted-foreground' : 'text-primary-foreground/70'
               }`}>
-                Financial Services Since 1994
+                Financial Services Since 1992
               </p>
             </div>
           </div>
@@ -119,7 +119,7 @@ export const Navigation = () => {
                   href="tel:+17185551234" 
                   className="block text-primary font-medium mb-3"
                 >
-                  📞 (718) 555-1234
+                  📞 (718) 692-2012
                 </a>
                 <Button 
                   variant="hero" 

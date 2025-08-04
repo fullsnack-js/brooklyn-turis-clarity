@@ -10,7 +10,7 @@ export const About = () => {
             Three Decades of Financial Excellence
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Since 1994, John Turis Enterprises has been Brooklyn's trusted partner for 
+            Since 1992, John Turis Enterprises has been Brooklyn's trusted partner for 
             comprehensive financial services. Our commitment to excellence and personal 
             attention has made us the go-to choice for individuals and businesses alike.
           </p>

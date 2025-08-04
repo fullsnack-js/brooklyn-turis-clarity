@@ -101,7 +101,7 @@ export const Contact = () => {
                         onChange={handleInputChange}
                         required
                         className="w-full"
-                        placeholder="(718) 555-1234"
+                        placeholder="(718) 692-2012"
                       />
                     </div>
                   </div>

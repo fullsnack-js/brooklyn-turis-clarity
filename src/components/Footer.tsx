@@ -87,20 +87,20 @@ export const Footer = () => {
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-gold" />
                 <a href="tel:+17185551234" className="text-primary-foreground/80 hover:text-gold transition-colors">
-                  (718) 555-1234
+                  (718) 692-2012
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-gold" />
                 <a href="mailto:info@johnturisenterprises.com" className="text-primary-foreground/80 hover:text-gold transition-colors">
-                  info@johnturisenterprises.com
+                  jturisent@aol.com
                 </a>
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-gold mt-0.5" />
                 <span className="text-primary-foreground/80">
-                  123 Main Street<br />
-                  Brooklyn, NY 11201
+                  4709 Avenue N<br />
+                  Brooklyn, NY 11234
                 </span>
               </div>
               <div className="flex items-start gap-2">
