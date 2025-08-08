@@ -72,7 +72,7 @@ export const About = () => {
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Established in 1994, we've weathered multiple economic cycles and 
+                  Established in 1992, we've weathered multiple economic cycles and 
                   helped thousands of clients achieve their financial goals.
                 </p>
               </CardContent>

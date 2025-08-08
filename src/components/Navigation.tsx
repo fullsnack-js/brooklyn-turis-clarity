@@ -75,7 +75,7 @@ export const Navigation = () => {
                 isScrolled ? 'text-foreground' : 'text-primary-foreground'
               }`}
             >
-              (718) 555-1234
+              (718) 692-2010
             </a>
             <Button 
               variant={isScrolled ? "hero" : "gold"} 

@@ -65,7 +65,7 @@ export const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="text-lg px-8 py-6 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10"
+              className="text-lg px-8 py-6 bg-gray-500 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 hover:text-white"
               onClick={scrollToContact}
             >
               <Mail className="w-5 h-5" />

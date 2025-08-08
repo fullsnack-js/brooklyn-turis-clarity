@@ -89,7 +89,7 @@ export const FAQ = () => {
                 href="tel:+17185551234" 
                 className="text-primary hover:text-gold font-semibold transition-colors"
               >
-                📞 (718) 555-1234
+                📞 (718) 692-2010
               </a>
               <a 
                 href="mailto:info@johnturisenterprises.com" 

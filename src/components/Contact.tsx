@@ -32,25 +32,48 @@ export const Contact = () => {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
+  try {
+    const res = await fetch("/api/send-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    if (res.ok) {
       toast({
         title: "Message Sent Successfully!",
-        description: "We'll contact you within 24 hours to schedule your consultation.",
+        description:
+          "We'll contact you within 24 hours to schedule your consultation.",
       });
       setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        service: '',
-        message: ''
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: "",
       });
-      setIsSubmitting(false);
-    }, 1000);
-  };
+    } else {
+      const data = await res.json();
+      toast({
+        title: "Error sending message",
+        description: data.error || "Please try again later.",
+        variant: "destructive",
+      });
+    }
+  } catch (error) {
+    toast({
+      title: "Network Error",
+      description: "Please check your connection and try again.",
+      variant: "destructive",
+    });
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
 
   return (
     <section id="contact" className="py-20 bg-background">
@@ -191,7 +214,7 @@ export const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-primary mb-1">Phone</h4>
-                        <p className="text-muted-foreground">(718) 555-1234</p>
+                        <p className="text-muted-foreground">(718) 692-2010</p>
                         <p className="text-sm text-muted-foreground">Free consultation available</p>
                       </div>
                     </div>
@@ -214,8 +237,8 @@ export const Contact = () => {
                       <div>
                         <h4 className="font-semibold text-primary mb-1">Address</h4>
                         <p className="text-muted-foreground">
-                          123 Main Street<br />
-                          Brooklyn, NY 11201
+                          4709 Avenue N<br />
+                          Brooklyn, NY 11234
                         </p>
                         <p className="text-sm text-muted-foreground">Convenient Brooklyn location</p>
                       </div>

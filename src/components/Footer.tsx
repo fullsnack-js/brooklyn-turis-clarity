@@ -19,7 +19,7 @@ export const Footer = () => {
               </div>
               <div>
                 <h3 className="font-bold text-lg">John Turis Enterprises</h3>
-                <p className="text-xs text-primary-foreground/70">Since 1994</p>
+                <p className="text-xs text-primary-foreground/70">Since 1992</p>
               </div>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
