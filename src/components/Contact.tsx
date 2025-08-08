@@ -114,7 +114,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                        Phone Number *
+                        Phone Number 
                       </label>
                       <Input
                         id="phone"
@@ -124,7 +124,7 @@ export const Contact = () => {
                         onChange={handleInputChange}
                         required
                         className="w-full"
-                        placeholder="(718) 692-2012"
+                        placeholder="(718) 555-1234"
                       />
                     </div>
                   </div>
@@ -168,7 +168,7 @@ export const Contact = () => {
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                      Message
+                      Message *
                     </label>
                     <Textarea
                       id="message"
