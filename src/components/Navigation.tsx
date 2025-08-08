@@ -119,7 +119,7 @@ export const Navigation = () => {
                   href="tel:+17185551234" 
                   className="block text-primary font-medium mb-3"
                 >
-                  📞 (718) 692-2012
+                  📞 (718) 692-2010
                 </a>
                 <Button 
                   variant="hero" 

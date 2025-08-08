@@ -92,10 +92,10 @@ export const FAQ = () => {
                 📞 (718) 692-2010
               </a>
               <a 
-                href="mailto:info@johnturisenterprises.com" 
+                href="mailto:jtebklynfinancial@gmail.com" 
                 className="text-primary hover:text-gold font-semibold transition-colors"
               >
-                ✉️ info@johnturisenterprises.com
+                ✉️ jtebklynfinancial@gmail.com
               </a>
             </div>
           </div>

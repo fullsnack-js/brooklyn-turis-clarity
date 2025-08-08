@@ -225,7 +225,7 @@ export const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-primary mb-1">Email</h4>
-                        <p className="text-muted-foreground">info@johnturisenterprises.com</p>
+                        <p className="text-muted-foreground">jtebklynfinancial@gmail.com</p>
                         <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
                       </div>
                     </div>
